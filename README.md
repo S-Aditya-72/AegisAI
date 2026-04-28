@@ -1,26 +1,20 @@
-# AegisAI
-AegisAI is an AI-powered emergency coordination platform designed for hotels and large hospitality spaces. It eliminates fragmented communication during crises by transforming guest-reported incidents into structured, actionable events and synchronizing responses across staff in real time.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-The system allows guests or staff to trigger an SOS, after which AI processes the input to identify the type of crisis, urgency level, and context. This information is instantly reflected on a live floor dashboard, where affected rooms are highlighted, and staff can take immediate action.
+# Run and deploy your AI Studio app
 
-AegisAI simulates a decentralized response network by connecting multiple operational nodes such as reception, floor staff, and central monitoring—ensuring that no critical information is delayed or lost during high-stakes situations.
+This contains everything you need to run your app locally.
 
-⚡ Key Features
-Real-time SOS triggering (text/voice-ready)
-AI-based crisis classification (Medical, Fire, Security)
-Live floor map dashboard with room-level alerts
-Clickable incident views with actionable insights
-Multi-channel alert simulation (visual + system feedback)
-Auto-escalation for unattended emergencies
-Distributed node visibility (Reception, Staff, Central)
-🎯 Problem It Solves
+View your app in AI Studio: https://ai.studio/apps/4f9e8ac2-7473-4b40-bc5d-b1fed50e7add
 
-Hospitality environments often suffer from delayed or fragmented communication during emergencies. AegisAI provides a unified, intelligent bridge between guests, staff, and response systems—enabling faster, more coordinated action when it matters most.
+## Run Locally
 
-🚀 Built For
+**Prerequisites:**  Node.js
 
-Google Solution Challenge 2026 — Rapid Crisis Response in Hospitality
 
-💡 Tech Stack
-
-React, TypeScript, TailwindCSS, Motion (Framer Motion), Mock AI (Gemini-ready architecture)
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
