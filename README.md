@@ -1,20 +1,95 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚨 AegisAI – Smart Emergency Response System
 
-# Run and deploy your AI Studio app
+AegisAI is an AI-assisted emergency response system designed for hospitality environments (hotels, hostels, hospitals). It enables rapid detection, classification, and response to crisis situations such as medical emergencies, fire hazards, and security threats.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/4f9e8ac2-7473-4b40-bc5d-b1fed50e7add
+## 🌍 Problem Statement
 
-## Run Locally
+In large buildings, emergency reporting is often:
+- Delayed
+- Unstructured
+- Dependent on human interpretation
 
-**Prerequisites:**  Node.js
+This leads to **slow response times**, miscommunication, and increased risk.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 💡 Solution
+
+AegisAI provides a **centralized, intelligent dashboard** that:
+- Converts natural language inputs into structured emergency events
+- Classifies incidents using AI logic
+- Assigns urgency levels
+- Notifies relevant stakeholders instantly
+- Tracks and escalates unresolved emergencies
+
+---
+
+## 🎯 Key Features
+
+- 🧠 **AI-based Incident Classification**
+  - Detects fire, medical, and security emergencies
+  - Generates meaningful summaries
+
+- 🚨 **SOS Trigger System**
+  - Room-based emergency reporting
+  - Natural language input
+
+- 🏢 **Floor-wise Monitoring Grid**
+  - Real-time visualization of room statuses
+  - Color-coded urgency levels
+
+- 🔔 **Multi-channel Alerts**
+  - Audio alerts
+  - Toast notifications
+  - Global emergency banner
+
+- ⚡ **Auto Escalation**
+  - Unresolved events escalate after 20 seconds
+
+- 📊 **Event Log System**
+  - Tracks all incidents with timestamps
+  - Status: Active / Escalated / Resolved
+
+- 🧾 **AI Suggested Actions**
+  - Context-aware response recommendations
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** React + TypeScript  
+- **Animations:** Framer Motion  
+- **UI Icons:** Lucide React  
+- **Styling:** Tailwind CSS  
+- **State Management:** React Hooks  
+
+---
+
+## 🚀 Live Demo
+
+👉 _Add your deployed link here (Vercel/Netlify)_  
+
+---
+
+## 🎥 Demo Video
+
+👉 _Add your demo video link here_
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/aegis-ai.git
+
+# Navigate to project
+cd aegis-ai
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
