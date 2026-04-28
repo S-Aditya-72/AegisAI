@@ -69,13 +69,13 @@ AegisAI provides a **centralized, intelligent dashboard** that:
 
 ## 🚀 Live Demo
 
-👉 _Add your deployed link here (Vercel/Netlify)_  
+https://aegis-ai-xi.vercel.app 
 
 ---
 
 ## 🎥 Demo Video
 
-👉 _Add your demo video link here_
+https://www.youtube.com/watch?v=S6Yjl1Ti_Ag
 
 ---
 
